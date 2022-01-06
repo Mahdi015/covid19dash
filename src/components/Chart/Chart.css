@@ -1,0 +1,48 @@
+.cov19-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.cov19-dropdown {
+  display: flex;
+  flex-direction: row;
+}
+.cov19-dropdown h1 {
+  margin: 0 1rem;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: 800;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1note {
+  font-size: small;
+  font-family: var(--font-family);
+  font-weight: 800;
+  color: rgb(95, 89, 89);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 580px) {
+  .cov19-chart {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cov19-dropdown h1 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .cov19-dropdown h1 {
+    font-size: 14px;
+  }
+}

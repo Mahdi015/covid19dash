@@ -1,0 +1,71 @@
+.cov19-table {
+  display: flex;
+  flex-direction: column;
+}
+.cov19-table h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.MuiDataGrid-cell {
+  display: block !important;
+  text-align: center !important;
+}
+.cov19-filterCountry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.cov19-filterCountry h1 {
+  margin: 0 2rem;
+  font-family: var(--font-family);
+  font-size: 25px;
+}
+.cov19-filterCountry input {
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  width: 180px;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  padding: 0 1rem;
+  outline: none;
+  color: white;
+}
+.cov19-tablefetching {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cov19-tablefetching h1 {
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+@media Screen and (max-width: 1070px) {
+  .cov19-table h1 {
+    font-size: 20px;
+  }
+}
+
+@media Screen and (max-width: 795px) {
+  .cov19-table h1 {
+    font-size: 15px;
+  }
+}
+@media Screen and (max-width: 500px) {
+  .cov19-table h1 {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+}

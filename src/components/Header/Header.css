@@ -1,0 +1,11 @@
+.cov19-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cov19-header h1 {
+  font-family: var(--font-family);
+  color: #6c6b84;
+  font-weight: 800;
+  cursor: pointer;
+}
