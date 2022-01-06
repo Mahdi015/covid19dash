@@ -23,6 +23,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console
 
+## Deployment
+I use Firebase to deploy this project
+-Firebase Hosting is production-grade web content hosting for developers. With a single command, you can quickly deploy web apps and serve both static and dynamic content to a global CDN (content delivery network).
+
 ![Made With ](https://img.shields.io/badge/Made%20With-React-blue)
 
 ![Made With ](https://img.shields.io/badge/Made%20With-MaterialUi-blue)
