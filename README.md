@@ -1,4 +1,5 @@
 
+Covid-19 Dashboard is now live on https://covid19-dashboard-da838.web.app
 # Covid19-dashboard
 
 Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
